@@ -1,9 +1,9 @@
 require 'gosu'
 
-class WhackARuby < Gosu::Window
+class DiamondHits < Gosu::Window
   def initialize
     super(800,600)
-    self.caption = 'Whack A Ruby'
+    self.caption = 'Diamond Hits'
     @ruby = Gosu::Image.new('images/diamond_pixel_64x64.png')
     @hammer = Gosu::Image.new('images/hammer_32x32.png')
     @bomb = Gosu::Image.new('images/bomb_64x64.png')
@@ -88,5 +88,5 @@ class WhackARuby < Gosu::Window
   end
 end
 
-window = WhackARuby.new
+window = DiamondHits.new
 window.show
