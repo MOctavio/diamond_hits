@@ -37,7 +37,7 @@ class DiamondHits < Gosu::Window
     @font.draw("Score: "+@score.to_s, 650, 20, 2)
     @font.draw("Time left: "+@time_left.to_s, 650, 50, 2)
     unless @playing
-      @font.draw("Game Over", 350, 300, 3)
+      @font.draw("Time's Up!", 350, 300, 3)
       @font.draw("Press the Space Bar to Play Again", 225, 350, 3)
       @visible = 20
     end
