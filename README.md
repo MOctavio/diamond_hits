@@ -9,7 +9,7 @@ The game consists of hitting a diamond with a hammer as many times as possible i
 - Make sure you have Ruby installed on your computer.
 - Clone the repo.
 - Run `bundle install`.
-- Run `ruby sector_five_scenes.rb`.
+- Run `ruby diamond_hits.rb`.
 
 #### Credits
 This game is based in a book called Learn Game Programming with Ruby, Bring Your Ideas to Life with Gosu by Mark Sobkowicz and the images are taken from [OpenClipart](https://openclipart.org/) and/or [OpenGameArt](http://opengameart.org/).
